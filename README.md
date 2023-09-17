@@ -11,7 +11,7 @@ value with recursive application. Code is prefix and deterministic.
 2^21  0..1FFFFFh    110xxxxx xxxxxxxx xxxxxxxx
 2^28  0..0FFFFFFFh  1110xxxx xxxxxxxx xxxxxxxx xxxxxxxx
 ```
-1-4 bytes length:       2^7 + 2^14 + 2^21 + 2^28 = 270 549 120
+1-4 bytes length:       2^7 + 2^14 + 2^21 + 2^28 = 270 549 120<br>
 4-bytes length (int32): 2^32 = 4 294 967 296
 
 ## Примечание
