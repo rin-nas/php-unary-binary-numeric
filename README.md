@@ -24,6 +24,7 @@ value with recursive application. Code is prefix and deterministic.
 ## Useful links
 * http://en.wikipedia.org/wiki/Exponential-Golomb_coding
 * http://en.wikipedia.org/wiki/Burrows–Wheeler_transform
+* https://www.timescale.com/blog/time-series-compression-algorithms-explained/
 
 ## Exponential-Golomb_coding
 
