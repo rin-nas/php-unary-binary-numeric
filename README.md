@@ -10,12 +10,15 @@ value with recursive application. Code is prefix and deterministic.
 2^14  0..3FFFh      10xxxxxx xxxxxxxx
 2^21  0..1FFFFFh    110xxxxx xxxxxxxx xxxxxxxx
 2^28  0..0FFFFFFFh  1110xxxx xxxxxxxx xxxxxxxx xxxxxxxx
-
+2^35  0..?          11110xxx xxxxxxxx xxxxxxxx xxxxxxxx
 ```
 
 ```
-variable 1-4 bytes length:    2^7 + 2^14 + 2^21 + 2^28 =   270 549 120
-fixed 4-bytes length (int32): 2^32                     = 4 294 967 296
+variable 1-2 bytes length:    2^7 + 2^14                      =         16 512
+variable 1-3 bytes length:    2^7 + 2^14 + 2^21               =      2 113 664
+variable 1-4 bytes length:    2^7 + 2^14 + 2^21 + 2^28        =    270 549 120
+variable 1-5 bytes length:    2^7 + 2^14 + 2^21 + 2^28 + 2^35 = 34 630 287 488
+fixed 4-bytes length (int32): 2^32                            =  4 294 967 296
 ```
 
 ## Примечание
