@@ -10,7 +10,7 @@ value with recursive application. Code is prefix and deterministic.
 2^14  0..3FFFh      10xxxxxx xxxxxxxx
 2^21  0..1FFFFFh    110xxxxx xxxxxxxx xxxxxxxx
 2^28  0..0FFFFFFFh  1110xxxx xxxxxxxx xxxxxxxx xxxxxxxx
-2^35  0..?          11110xxx xxxxxxxx xxxxxxxx xxxxxxxx
+2^35  0..?          11110xxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx
 ```
 
 ```
