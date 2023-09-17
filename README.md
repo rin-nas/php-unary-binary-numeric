@@ -18,7 +18,11 @@ variable 1-2 bytes length:    2^7 + 2^14                      =         16 512
 variable 1-3 bytes length:    2^7 + 2^14 + 2^21               =      2 113 664
 variable 1-4 bytes length:    2^7 + 2^14 + 2^21 + 2^28        =    270 549 120
 variable 1-5 bytes length:    2^7 + 2^14 + 2^21 + 2^28 + 2^35 = 34 630 287 488
-fixed 4-bytes length (int32): 2^32                            =  4 294 967 296
+
+fixed 1-byte  length:         2^8                             =            256
+fixed 2-bytes length (int32): 2^16                            =         65 536
+fixed 3-bytes length:         2^24                            =     16 777 216
+fixed 4-bytes length (int64): 2^32                            =  4 294 967 296
 ```
 
 ## Примечание
