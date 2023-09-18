@@ -1,3 +1,24 @@
+## Useful links
+* http://en.wikipedia.org/wiki/Exponential-Golomb_coding
+* http://en.wikipedia.org/wiki/Burrows–Wheeler_transform
+* https://www.timescale.com/blog/time-series-compression-algorithms-explained/
+
+## Exponential-Golomb_coding
+
+```
+Кодируемое число на входе => Битовое представление => Битовое представление на выходе
+0 => 1 => 1
+1 => 10 => 010  (добавили вначале один ноль)
+2 => 11 => 011
+3 => 100 => 00100  (добавили в начале два нуля)
+4 => 101 => 00101
+5 => 110 => 00110
+6 => 111 => 00111
+7 => 1000 => 0001000  (добавили в начале три нуля)
+8 => 1001 => 0001001
+9 => 1010 =>   
+...
+```
 
 ```
 2^0  1       0
